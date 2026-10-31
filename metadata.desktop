@@ -4,6 +4,7 @@ Description=A high-end Nothing Phone inspired SDDM theme with adaptive typograph
 Author=xCaptaiN09
 Copyright=(c) 2026 xCaptaiN09
 License=MIT
+QtVersion=6
 Type=sddm-theme
 Version=1.0
 MainScript=Main.qml
