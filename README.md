@@ -72,7 +72,7 @@ Required for Ubuntu 22.04/24.04, Debian 12, Linux Mint.
 This script handles file copying, backs up your customizations, and provides configuration instructions:
 ```bash
 git clone https://github.com/lolpoppin/fixed-glyph-sddm
-cd glyph-sddm
+cd fixed-glyph-sddm
 sudo ./install.sh
 ```
 
@@ -83,7 +83,7 @@ sudo ./install.sh
    ```
 2. Copy the folder to SDDM themes directory:
    ```bash
-   sudo cp -r glyph-sddm /usr/share/sddm/themes/glyph
+   sudo cp -r fixed-glyph-sddm /usr/share/sddm/themes/glyph
    ```
 3. Set the theme in `/etc/sddm.conf`:
    ```ini
