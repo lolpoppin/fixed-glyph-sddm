@@ -101,11 +101,7 @@ sudo ./install.sh
 ### Preview Without Logging Out
 Run this command to preview the theme:
 ```bash
-# For Qt6 (Modern):
 sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/glyph
-
-# For Qt5 (Legacy):
-sddm-greeter --test-mode --theme /usr/share/sddm/themes/glyph
 ```
 
 ### Customization
