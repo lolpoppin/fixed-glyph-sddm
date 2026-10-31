@@ -22,8 +22,8 @@ A high-end, minimalist SDDM theme inspired by the **Nothing Phone** aesthetic. F
 </div>
 
 ## 🛠️ Fixes 
-Issues that are fixed the icons not working fixed by switching the font with a maple-font 
-error when trying to use the theme in qt5 defaulted into qt6
+- Issues that are fixed the icons not working fixed by switching the font with a maple-font 
+- error when trying to use the theme in qt5 defaulted into qt6
 ## 🌟 Features
 
 - **True Nothing Typography:** Powered by the `Ndot` font family with an adaptive monospaced grid for a perfectly balanced clock.
