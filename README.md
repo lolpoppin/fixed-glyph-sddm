@@ -73,6 +73,9 @@ This script handles file copying, backs up your customizations, and provides con
 ```bash
 git clone https://github.com/lolpoppin/fixed-glyph-sddm
 cd fixed-glyph-sddm
+```
+Then change the background and avatar to what you want located in the assets/images then do
+```bash
 sudo ./install.sh
 ```
 
