@@ -23,7 +23,7 @@ A high-end, minimalist SDDM theme inspired by the **Nothing Phone** aesthetic. F
 
 ## 🛠️ Fixes 
 - **Fixed Missing Font:** Added Maple-Font inside of the theme so that the icons of the distro and power buttons would render correctly 
-- **Fixed QT Compatibility:** Updated the theme to use QT6 fixing issues with the greeter theme failing to run
+- **Fixed Qt Compatibility:** Updated the theme to use Qt6 fixing issues with the greeter theme failing to run
 ## 🌟 Features
 
 - **True Nothing Typography:** Powered by the `Ndot` font family with an adaptive monospaced grid for a perfectly balanced clock.
@@ -33,7 +33,6 @@ A high-end, minimalist SDDM theme inspired by the **Nothing Phone** aesthetic. F
 - **Crimson Minimalism Switchers:** Fully keyboard-navigable user and session lists with a gliding **Nothing Red** dot indicator.
 - **Pro Interactions:** Snappy slide-up reveal, tactile "⋯" loading states, and a red-flashing error shake for incorrect PINs.
 - **Dynamic Distro Integration:** Automatically detects and displays your OS name and logo (Arch, Nix, Fedora, etc.).
-- **Universally Compatible:** Works flawlessly on both Qt5 and Qt6 systems without needing separate branches.
 
 ---
 
