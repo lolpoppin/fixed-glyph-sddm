@@ -119,6 +119,6 @@ Edit `theme.conf` or replace assets in `assets/images/`:
 - **Author:** [xCaptaiN09](https://github.com/xCaptaiN09)
 - **Design:** Inspired by Nothing Phone (1) & (2).
 - **Fonts:** Ndot 57 Aligned & Symbols Nerd Font (included).
-
+- **Font Owner:** [subframe7536](https://github.com/subframe7536/Maple-font)
 ---
 *Made with ❤️ for the Linux community.*
