@@ -71,64 +71,15 @@ Required for Ubuntu 22.04/24.04, Debian 12, Linux Mint.
 ### 1. Automatic Script (Recommended)
 This script handles file copying, backs up your customizations, and provides configuration instructions:
 ```bash
-git clone https://github.com/xCaptaiN09/glyph-sddm.git
+git clone https://github.com/lolpoppin/fixed-glyph-sddm
 cd glyph-sddm
 sudo ./install.sh
 ```
 
-### 2. Arch Linux (AUR)
-Glyph SDDM is available on the AUR as `glyph-sddm-git`. You can install it using your favorite AUR helper:
-```bash
-yay -S glyph-sddm-git
-```
-
-### 3. NixOS (Declarative)
-Add the following to your `configuration.nix`.
-
-> **Note for Qt6:** If you are on modern NixOS, you **must** use `pkgs.kdePackages.sddm` to ensure the Qt6 platform plugins load correctly. Without this, your mouse cursor may not appear.
-
-```nix
-{ pkgs, ... }: {
-  services.displayManager.sddm = {
-    enable = true;
-    theme = "glyph";
-    # Crucial for Qt6: Use the KDE/Qt6 build of SDDM to fix missing cursors and module errors
-    package = pkgs.kdePackages.sddm; 
-    
-    # Fix for NixOS explicitly requiring a cursor theme
-    settings = {
-      Theme = {
-        CursorTheme = "breeze_cursors"; # Change this if you use a different cursor theme (e.g., Adwaita)
-      };
-    };
-  };
-
-  environment.systemPackages = [
-    (pkgs.stdenv.mkDerivation {
-      name = "glyph-sddm";
-      src = pkgs.fetchFromGitHub {
-        owner = "xCaptaiN09";
-        repo = "glyph-sddm";
-        rev = "main";
-        hash = pkgs.lib.fakeHash;
-      };
-      installPhase = "
-        mkdir -p $out/share/sddm/themes/glyph
-        cp -r * $out/share/sddm/themes/glyph/
-      ";
-    })
-    # Correct Qt6 dependencies for NixOS
-    pkgs.kdePackages.qtdeclarative
-    pkgs.kdePackages.qtsvg
-    pkgs.kdePackages.qt5compat # Included for wider QML component compatibility
-  ];
-}
-```
-
-### 4. Manual
+### 2. Manual
 1. Clone the repository:
    ```bash
-   git clone https://github.com/xCaptaiN09/glyph-sddm.git
+   https://github.com/lolpoppin/fixed-glyph-sddm
    ```
 2. Copy the folder to SDDM themes directory:
    ```bash
