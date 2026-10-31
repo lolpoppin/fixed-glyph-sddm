@@ -68,7 +68,7 @@ Required for Ubuntu 22.04/24.04, Debian 12, Linux Mint.
 
 ## 🚀 Installation
 
-### 1. Automatic Script (Recommended)
+### 1. Recommended Way
 This script handles file copying, backs up your customizations, and provides configuration instructions:
 ```bash
 git clone https://github.com/lolpoppin/fixed-glyph-sddm
