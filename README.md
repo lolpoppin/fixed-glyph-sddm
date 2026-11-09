@@ -24,6 +24,7 @@ A high-end, minimalist SDDM theme inspired by the **Nothing Phone** aesthetic. F
 ## 🛠️ Fixes 
 - **Fixed Missing Font:** Added Maple-Font inside of the theme so that the icons of the distro and power buttons would render correctly 
 - **Fixed Qt Compatibility:** Updated the theme to use Qt6 fixing issues with the greeter theme failing to run
+- **Fixed distros Icons** Certain Distros wouldn't have their icons showing so i fixed them by reading the updated one 
 ## 🌟 Features
 
 - **True Nothing Typography:** Powered by the `Ndot` font family with an adaptive monospaced grid for a perfectly balanced clock.
